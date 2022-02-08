@@ -14,6 +14,8 @@ $(".owl-carousel").owlCarousel({
   navText: [$(".prev"), $(".next")],
   responsiveClass: true,
   smartSpeed: 2000,
+  animateOut: "fadeOut",
+
   responsive: {
     0: {
       items: 1,
