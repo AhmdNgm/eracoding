@@ -102,6 +102,9 @@ body .navbar {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 body .navbar .nav-content {
@@ -1197,6 +1200,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     position: relative;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .navbar .nav-content {
     width: 90%;
@@ -1282,6 +1288,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     position: fixed;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .fixed-top .nav-content {
     width: 90%;
@@ -2161,6 +2170,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     position: relative;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .navbar .nav-content {
     width: 90%;
@@ -2246,6 +2258,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     position: fixed;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .fixed-top .nav-content {
     width: 90%;
@@ -2548,6 +2563,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .navbar .nav-content {
     width: 90%;
@@ -2591,6 +2609,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     position: fixed;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .fixed-top .nav-content {
     padding: 0;
@@ -3523,6 +3544,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .navbar .nav-content {
     width: 90%;
@@ -3566,6 +3590,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     position: fixed;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .fixed-top .nav-content {
     padding: 0;
@@ -4502,6 +4529,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .navbar .nav-content {
     width: 90%;
@@ -4545,6 +4575,9 @@ body .footer-section .copy-part .copy-content .icons .footer-icon:hover {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     position: fixed;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   body .fixed-top .nav-content {
     padding: 0;
