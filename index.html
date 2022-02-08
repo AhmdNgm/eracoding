@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Era Coding</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="topBar">
+        <div class="topBar-content">
+            <div class="topBar-left">
+                <a href="#" class="loc">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Cairo/Egypt</p>
+                </a>
+            </div>
+            <div class="topBar-right">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="lang">
+                    <i class="fas fa-globe"></i>
+                    <p>Ar</p>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">
+                <img src="./assets/images/logocolor.jpg" alt="logo">
+            </a>
+            <ul class="nav-items">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Our Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Why Us?
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Our Working Process
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Previews Work
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <a href="#" class="contact-btn">
+                Contact Us
+            </a>
+            <a href="#" id="openNav" onclick="smallNav()" class="open-nav"><i class="fas fa-bars"></i></a>
+        </div>
+
+    </nav>
+    <nav class="mobile-navbar" id="mobNav">
+        <div class="nav-content">
+            <a href="#" class="exit-btn" onclick="smallNav()"><i class="fas fa-times"></i></a>
+            <ul class="nav-items">
+                <li class="nav-item">
+                    <a href="#home" onclick="smallNav()" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ourserv" onclick="smallNav()" class="nav-link">
+                        Our Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#whyus" onclick="smallNav()" class="nav-link">
+                        Why Us?
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ourworking" onclick="smallNav()" class="nav-link">
+                        Our Working Process
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#prevwork" onclick="smallNav()" class="nav-link">
+                        Previews Work
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <a href="#" class="contact-btn">
+                Contact Us
+            </a>
+        </div>
+
+    </nav>
+    <!-- header -->
+    <section class="header" id="home">
+        <div class="header-container">
+            <div class="header-left">
+                <h1 class="header-title">Make your vision a reality</h1>
+                <p class="header-text">We provide various software development services for you.</p>
+                <a href="#" class="header-btn">
+                    Take A Look
+                </a>
+            </div>
+            <div class="header-right">
+                <img src="./assets/images/eracoding.svg" alt="headerPhoto">
+            </div>
+        </div>
+    </section>
+    <!-- cards -->
+    <section class="header-cards">
+        <div class="bg"></div>
+        <div class="cards">
+            <div class="cards-container">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="thefront">
+                            <img src="./assets/images/desktop.png" alt="dashboard">
+                            <p class="card-hd">Desktop Program</p>
+                            <p class="card-txt">Management systems</p>
+                        </div>
+                        <div class="theback">
+                            <p class="card-txt-back">Get a professional desktop program for your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="thefront">
+                            <img src="./assets/images/Logo-Design.png" alt="dashboard">
+
+
+                            <p class="card-hd">Logo Design</p>
+                            <p class="card-txt">New ideas</p>
+                        </div>
+                        <div class="theback">
+                            <p class="card-txt-back">get a new logo design with a unique idea describes your
+                                business
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="thefront">
+                            <img src="./assets/images/uiux_TuOW5A6.png" alt="dashboard">
+
+                            <p class="card-hd">UI UX Design</p>
+                            <p class="card-txt">Creative Design</p>
+                        </div>
+                        <div class="theback">
+                            <p class="card-txt-back">Create your unique UI UX design for a website or mobile app</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="thefront">
+                            <img src="./assets/images/WebDevelopment.png" alt="dashboard">
+
+                            <p class="card-hd">Website Development</p>
+                            <p class="card-txt">Full dynamic website</p>
+                        </div>
+                        <div class="theback">
+                            <p class="card-txt-back">Full dynamic website with creative design for your business</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- first section  why us-->
+    <section class="whyus">
+        <div class="why-head-content">
+            <h1 class="why-main-title">Why Us?</h1>
+            <p class="why-main-text">We provide the best software solutions for your business.</p>
+        </div>
+        <div class="why-container">
+            <div class="why-left">
+                <img src="./assets/images/Group_10386.png" alt="laptop">
+            </div>
+            <div class="why-right">
+                <h1 class="why-title">
+                    Take your business to the next step.
+                </h1>
+                <p class="why-text">
+                    we provide various software development services for you
+                    including programming, web development and graphic design.
+                    we will listen to your problem and provide the best solution for it.
+                    if you need a management system for your business
+                    or a website for your customers or a new creative cover design or logo...
+                    we are here to make your vision a reality.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- second section our working process-->
+    <section class="ourworking">
+        <div class="ourworking-container">
+            <h1 class="ourworking-title">Our Working Process</h1>
+            <div class="ourworking-cards">
+                <div class="ourworking-card">
+                    <img src="./assets/images/seo.svg" class="img-top1" alt="project">
+                    <h1 class="ourworking-card-title">
+                        Select A Project
+                    </h1>
+                    <p class="ourworking-card-text">
+                        We will discuses with you the project you need and put down all the requirements for it.
+                    </p>
+                </div>
+                <div class="ourworking-card ourworking-middle">
+                    <div class="ourworking-middle">
+                        <img src="./assets/images/idea.svg" class="img-top2" alt="project">
+                        <h1 class="ourworking-card-title">
+                            Project Analysis
+                        </h1>
+                        <p class="ourworking-card-text">
+                            We will analysis your requirements and come up with the best solution to start the
+                            project.
+                        </p>
+                    </div>
+                    <img class="top-right" src="/assets/images/top-right-bg.svg" alt="sample">
+                    <img class="top-right-round" src="/assets/images/Group 10354.svg" alt="sample">
+                    <img class="bottom-left" src="/assets/images/bottom-left-bg.svg" alt="sample">
+                </div>
+                <div class="ourworking-card">
+                    <img src="./assets/images/startup.svg" class="img-top3" alt="project">
+                    <h1 class="ourworking-card-title">
+                        Deliver Result
+                    </h1>
+                    <p class="ourworking-card-text">
+                        We will deliver the result for you that will fit your needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- third section previous work-->
+    <section class="prevwork">
+        <div class="prev-container">
+            <h1 class="prev-title">
+                PREVIOUS WORK
+
+            </h1>
+            <div class="owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item">
+                            <img src="./assets/images/eracoding.svg" alt="#">
+                            <h1 class="slide-title">Project Name</h1>
+                            <a href="#" class="slide-project-btn">View Details
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="owl-item">
+                            <img src="./assets/images/eracoding.svg" alt="#">
+                            <h1 class="slide-title">Project Name</h1>
+                            <a href="#" class="slide-project-btn">View Details
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="owl-item">
+                            <img src="./assets/images/eracoding.svg" alt="#">
+                            <h1 class="slide-title">Project Name</h1>
+                            <a href="#" class="slide-project-btn">View Details
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="owl-item">
+                            <img src="./assets/images/eracoding.svg" alt="#">
+                            <h1 class="slide-title">Project Name</h1>
+                            <a href="#" class="slide-project-btn">View Details
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="owl-nav">
+                    <div class="prev"><i class="fas fa-arrow-circle-left"></i>
+                    </div>
+                    <div class="next"><i class="fas fa-arrow-circle-right"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-section">
+        <div class="footer-part">
+            <div class="footer-logo">
+                <img src="./assets/images/logoblack.png" alt="logo">
+            </div>
+            <div class="footer-links">
+                <div class="footer-content">
+                    <p class="footer-text">Quick Links</p>
+                    <a href="#" class="footer-link">Home</a>
+                    <a href="#" class="footer-link">Services</a>
+                </div>
+
+                <div class="footer-content">
+                    <p class="footer-text">Contact Us</p>
+                    <a href="#" class="footer-link">
+                        <i class="fas fa-envelope"></i>
+                        eraacoding@gmail.com</a>
+                    <a href="#" class="footer-link">
+                        <i class="fab fa-whatsapp"></i>
+                        +201096285669</a>
+                </div>
+            </div>
+        </div>
+        <div class="copy-part">
+            <div class="copy-content">
+                <p class="copy">
+                    Copyright © eracoding.com 2019 - 2021
+                </p>
+                <div class="icons">
+                    <a href="#" class="footer-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="footer-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
